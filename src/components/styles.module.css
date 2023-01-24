@@ -15,3 +15,34 @@
     float: right;
     padding: 20px;
 }
+
+.sliders {
+
+    width: 100vw;
+}
+
+.slider {
+    margin-top:20px
+}
+
+.arrowRight{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 300px;
+    margin-right: 30px;
+    float: right;
+}
+
+.arrowLeft{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 300px;
+    float: left;
+    margin-left: 30px;
+}
+.sliderDescription{
+    font-size: 25px;
+    font-weight: bolder;
+    background: black;
+    color: white;
+}
