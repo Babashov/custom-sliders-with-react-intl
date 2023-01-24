@@ -1,6 +1,7 @@
 import styles from './styles.module.css'
 import { useState,useEffect } from 'react'
 import {IntlProvider, FormattedMessage} from 'react-intl'
+import { useSlider } from '../context/SliderProvider'
 
 const translationMsg = {
   "az-AZ":{
@@ -19,9 +20,8 @@ const translationMsg = {
 
 function Header() {
 
-  const localLang = localStorage.getItem('lang')
-  const defaultLanguage = localLang ? localLang : navigator.language
-  const [language,setLanguage] = useState(defaultLanguage)
+  const {language,setLanguage} = useSlider()
+
 
   useEffect(()=>{
     localStorage.setItem('lang',language)
