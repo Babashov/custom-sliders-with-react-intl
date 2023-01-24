@@ -1,0 +1,17 @@
+.header{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color:white;
+}
+
+.logo {
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.language{
+    float: right;
+    padding: 20px;
+}
