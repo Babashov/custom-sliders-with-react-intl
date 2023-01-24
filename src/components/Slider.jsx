@@ -31,7 +31,7 @@ function Slider() {
           </span>
           <img 
             src={sliders[slider].url}
-            alt='Image 01'
+            alt={sliders[slider].desc}
             width='1200px'
             height='700px'
           />
