@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-import { useState,useEffect } from 'react'
+import { useEffect } from 'react'
 import {IntlProvider, FormattedMessage} from 'react-intl'
 import { useSlider } from '../context/SliderProvider'
 
